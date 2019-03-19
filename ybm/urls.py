@@ -6,4 +6,5 @@ urlpatterns = [
     path('', include('blog.urls')),
     path('about', include('blog.urls')),
     path('blog', include('blog.urls')),
+    path('post', include('blog.urls')),
 ]

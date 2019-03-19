@@ -1,15 +1,68 @@
+
+
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="{% static 'css/blog.css'%}">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-<head>
-	<title>Young Black Millionaires</title>
-	<meta charset="utf-8" />
-</head>
+        <title>YBM</title>
+    </head>
 
-<body class="body" style="background-color:#f6f6f6">
-	<div>
-	   <h1>Welcome to the About Page!!!</h1>
-	</div>
+<body>
+    <header class="showcase">
+        <div class="content">
+            
+            <img src="{% static "logo1.png" %}" class="logo" alt="YBM Logo">
+            <div class="title">
+                <!--Title Text Here(coming soon)-->
+            </div>
+            <div class="text">
+                <!-- Text goes here -->
+            </div>
+            </div>
+            </header>
+            <!-- Services -->
+            <section class="services">
+                <div class="container grid-3 center"</div>
+                    <div>
+                        <i class="fab fa-youtube fa-3x"></i>
+                        <h3>Interviews</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                    <div>
+                        <i class="fas fa-chalkboard-teacher fa-3x"></i>
+                        <h3>The Happening</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
+                    </div>
+                    <div>
+                        <i class="fas fa-briefcase fa-3x"></i>
+                        <h3>Merch</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+            </section>
+
+            <!-- About -->
+            <section class="about bg-light">
+                <div class="container">
+                <div class="grid-2">
+                    <div class="center">
+                        <i class="fas fa-laptop-code fa-10x"></i>
+
+                    <h3>About Us</h3>
+                    <p>Young Black Millionaires aims to highlight the success of young individuals to eliminate the negative stigmas within our culture and empower our communities. YBM will showcase successful entrepreneurs, engineers, and creatives a-like and provide them a voice to inspire the world. By Utilizing various social media platforms partnered with large community involvement, our reach is limitless. Young Black Millionaires is coming soon. Stay tuned.
+                    </p>
+                </div>
+                </div>
+                </div>
+            </section>
+            <footer class="center bg-dark">
+                <p>YBM Media &copy;2019</p>
+            </footer>
+
 </body>
-
 </html>
